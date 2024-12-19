@@ -1,7 +1,8 @@
-train: images/train
-val: images/val
+train: augmented/images/train
+val: augmented/images/val
 
 nc: 2  # Number of classes (e.g., 1 for 'laptop')
 names: [
-"Phonecase",
-"Phonecaseback"]  # Class names
+'mobilecoverfront',
+'mobilecoverback'
+]  # Class names
